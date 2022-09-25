@@ -3,7 +3,7 @@ import React, { useRef } from 'react'
 
 const OfferItems = ({ heading, title, subtitle, buttonText }) => {
     const ref = useRef(null)
-    const isInView = useInView(ref, { margin: '0px 0px -200px 0px' })
+    const isInView = useInView(ref, { margin: '0px 0px -100px 0px' })
 
     return (
         <div

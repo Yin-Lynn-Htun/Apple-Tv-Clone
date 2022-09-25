@@ -14,6 +14,18 @@ const HeroSection = () => {
         offset: ['start end', 'end end'],
     })
 
+    const textRef = useRef(null)
+    const { scrollYProgress: textScrollProgress } = useScroll({
+        target: textRef,
+        offset: ['start 70vh', 'start 10vh'],
+    })
+
+    useEffect(() => {
+        return textScrollProgress.onChange((latest) => {
+            textRef.current.style.opacity = 1 - latest
+        })
+    }, [textScrollProgress])
+
     return (
         <div className="relative pb-20">
             <div className="h-[calc(100vh-47px)] sticky top-[47px] left-0 w-full -z-10 opacity-90">
@@ -24,7 +36,10 @@ const HeroSection = () => {
                     src="https://www.apple.com/v/apple-tv-plus/ac/images/overview/hero_startframe__fs1yactuf3qm_small.jpg"
                 />
             </div>
-            <div className="absolute top-[57vh] left-0 px-6">
+            <motion.div
+                ref={textRef}
+                className="absolute top-[57vh] left-0 px-6"
+            >
                 <h2 className="text-[40px] leading-[44px] font-extrabold  text-white">
                     <p>
                         All Apple Originals. {/* <br class="large" /> */}
@@ -40,7 +55,7 @@ const HeroSection = () => {
                     />{' '}
                     app
                 </div>
-            </div>
+            </motion.div>
             <motion.div
                 ref={ref}
                 className="h-screen w-full absolute top-[80vh]"

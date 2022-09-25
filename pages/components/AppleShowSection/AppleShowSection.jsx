@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useInView, motion, useScroll } from 'framer-motion'
 import useWindowDimensions from '../../hooks/useWindowDimension'
+import MovingMovieSection from './MovingMovieSection'
 
 const AppleShowSection = () => {
     const viewRef = useRef(null)
@@ -22,8 +23,9 @@ const AppleShowSection = () => {
     }, [width, height])
 
     return (
-        <section className="h-[2000px]">
-            <motion.div
+        // <section className="h-[2000px] bg-black">
+        <section className="bg-black">
+            {/* <motion.div
                 // style={{ transform: scrollYProgress }}
                 ref={viewRef}
                 className="w-full h-full bg-red-100 relative"
@@ -39,7 +41,8 @@ const AppleShowSection = () => {
                     <h1>Sidney</h1>
                     <h1></h1>
                 </div>
-            </motion.div>
+            </motion.div> */}
+            <MovingMovieSection />
         </section>
     )
 }

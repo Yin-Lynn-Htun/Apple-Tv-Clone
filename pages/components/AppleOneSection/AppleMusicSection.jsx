@@ -5,11 +5,11 @@ const AppleMusicSection = () => {
     return (
         <section className="bg-gray-100 mt-4">
             <div className="py-11 flex flex-col justify-center items-center gap-4">
-                <p class="text-[28px] font-semibold leading-[30px] text-center py-3 ">
-                    The&nbsp;Apple&nbsp;Music Student <br class="small" />
-                    Plan comes with <br class="small" />
+                <p className="text-[28px] font-semibold leading-[30px] text-center py-3 ">
+                    The&nbsp;Apple&nbsp;Music Student <br className="small" />
+                    Plan comes with <br className="small" />
                     Apple&nbsp;TV+ for&nbsp;free.
-                    <sup class="footnote footnote-number">
+                    <sup className="footnote footnote-number">
                         <a href="#footnote-4" aria-label="Footnote 3">
                             3
                         </a>

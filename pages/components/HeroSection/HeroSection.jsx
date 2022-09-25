@@ -10,14 +10,8 @@ const HeroSection = () => {
         offset: ['start end', 'end end'],
     })
 
-    useEffect(() => {
-        return scrollYProgress.onChange((latest) => {
-            console.log('Page scroll: ', latest)
-        })
-    }, [scrollYProgress])
-
     return (
-        <div className="relative">
+        <div className="relative pb-20">
             <div className="h-[100vh] sticky top-0 left-0 w-full -z-10 opacity-90">
                 <Image
                     className="object-cover"

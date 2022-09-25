@@ -3,6 +3,7 @@ import AppleAirPlaySection from '../AppleOneSection/AppleAirPlaySection'
 import AppleMusicSection from '../AppleOneSection/AppleMusicSection'
 import AppleOneSection from '../AppleOneSection/AppleOneSection'
 import AppleTvSection from '../AppleOneSection/AppleTvSection'
+import AppleShowSection from '../AppleShowSection/AppleShowSection'
 import AppleTvAppSection from '../AppleTvAppSection/AppleTvAppSection'
 import CtaButton from '../Buttons/CtaButton'
 import FaqSection from '../FaqSection/FaqSection'
@@ -17,6 +18,7 @@ const Layout = () => {
             <StickyCta />
             <CtaButton />
             <HeroSection />
+            <AppleShowSection />
             <AppleTvAppSection />
             <FaqSection />
             <AppleOneSection />

@@ -6,7 +6,7 @@ const AppleAirPlaySection = () => {
         <section className="bg-gray-100 mt-4">
             <div className="pt-11 flex flex-col justify-center items-center gap-2">
                 <h3 className="font-semibold text-lg">AirPlay</h3>
-                <p class="typography-headline">
+                <p className="typography-headline">
                     Bring Apple&nbsp;TV+ to <br />a screen near you.
                 </p>
 

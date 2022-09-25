@@ -20,14 +20,15 @@ const AppleTvAppSection = () => {
                     alt="Logo"
                 />
                 <h1 className="text-3xl font-bold">
-                    Watch Apple&nbsp;TV+ anywhere {/* <br class="large" /> */}
+                    Watch Apple&nbsp;TV+ anywhere{' '}
+                    {/* <br className="large" /> */}
                     on the Apple&nbsp;TV&nbsp;app.
                 </h1>
                 <p className="text-[17px] px-3 py-4">
                     Find the Apple&nbsp;TV&nbsp;app on your favorite Apple
                     devices.
-                    {/* <br class="large" /> */}
-                    {/* <br class="medium" /> */}
+                    {/* <br className="large" /> */}
+                    {/* <br className="medium" /> */}
                     Or&nbsp;watch Apple&nbsp;TV+ online at{' '}
                     <a href="https://tv.apple.com/" className="text-link">
                         tv.apple.com

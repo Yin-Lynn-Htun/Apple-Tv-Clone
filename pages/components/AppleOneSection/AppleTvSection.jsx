@@ -10,8 +10,8 @@ const AppleTvSection = () => {
                     src="https://www.apple.com/v/apple-tv-plus/ac/images/overview/apple_tv_4k_logo__bx1mtrage32a_small_2x.png"
                     alt="logo"
                 />
-                <p class="typography-headline">
-                    A higher <br class="small" />
+                <p className="typography-headline">
+                    A higher <br className="small" />
                     definition of TV.
                 </p>
                 <div className="flex gap-5 items-center">

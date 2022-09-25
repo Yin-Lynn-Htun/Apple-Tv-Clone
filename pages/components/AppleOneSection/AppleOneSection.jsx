@@ -10,12 +10,12 @@ const AppleOneSection = () => {
                     src="https://www.apple.com/v/apple-tv-plus/ac/images/overview/apple_one__b0modw3b87xy_small_2x.png"
                     alt="logo"
                 />
-                <p class="text-[28px] font-semibold leading-[30px] text-center py-3 ">
-                    <span class="lg-wrap">Bundle Apple&nbsp;TV+</span>{' '}
-                    <br class="small" />
+                <p className="text-[28px] font-semibold leading-[30px] text-center py-3 ">
+                    <span className="lg-wrap">Bundle Apple&nbsp;TV+</span>{' '}
+                    <br className="small" />
                     with
-                    {/* <br class="large" /> */}
-                    {/* <br class="medium" />  */} up to five other
+                    {/* <br className="large" /> */}
+                    {/* <br className="medium" />  */} up to five other
                     great&nbsp;services.
                     <br />
                     And enjoy more for less.

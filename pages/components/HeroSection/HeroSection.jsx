@@ -46,7 +46,7 @@ const HeroSection = () => {
                     <div className="mt-16 text-gray-300 font-semibold">
                         Watch on the Tv app
                     </div>
-                    <ul className="font-bold text-white text-2xl flex flex-col gap-12">
+                    <ul className="font-bold text-white text-[28px] flex flex-col gap-12">
                         <li>New Apple&nbsp;Originals every&nbsp;month.</li>
                         <li>
                             Stream on the Apple&nbsp;TV&nbsp;app on Apple

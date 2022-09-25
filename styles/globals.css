@@ -54,3 +54,9 @@ body {
 .tab input[type='checkbox']:checked + label::after {
     transform: rotate(0);
 }
+
+@layer components {
+    .typography-headline {
+        @apply text-[28px] font-semibold leading-[30px] text-center py-3;
+    }
+}

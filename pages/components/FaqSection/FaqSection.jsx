@@ -3,7 +3,7 @@ import AccordionItem from './AccordionItem'
 
 const FaqSection = () => {
     return (
-        <section className="px-6">
+        <section className="px-6 pb-12">
             <h1 className="text-2xl text-center font-semibold mb-11">
                 Questions? Answers.
             </h1>

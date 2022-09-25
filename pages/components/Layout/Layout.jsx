@@ -1,4 +1,8 @@
 import React from 'react'
+import AppleAirPlaySection from '../AppleOneSection/AppleAirPlaySection'
+import AppleMusicSection from '../AppleOneSection/AppleMusicSection'
+import AppleOneSection from '../AppleOneSection/AppleOneSection'
+import AppleTvSection from '../AppleOneSection/AppleTvSection'
 import AppleTvAppSection from '../AppleTvAppSection/AppleTvAppSection'
 import CtaButton from '../Buttons/CtaButton'
 import FaqSection from '../FaqSection/FaqSection'
@@ -15,6 +19,11 @@ const Layout = () => {
             <HeroSection />
             <AppleTvAppSection />
             <FaqSection />
+            <AppleOneSection />
+            <AppleMusicSection />
+            <AppleTvSection />
+            <AppleAirPlaySection />
+            <div className="h-screen w-full"></div>
         </div>
     )
 }

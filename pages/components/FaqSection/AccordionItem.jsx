@@ -10,13 +10,13 @@ const AccordionItem = ({ id, ques, ans }) => {
                 name="tabs"
             />
             <label
-                className="block py-5 cursor-pointer text-lg font-semibold"
+                className="block py-5 cursor-pointer text-lg md:text-xl xl:text-2xl font-semibold"
                 for={id}
             >
                 {ques}
             </label>
             <div className="tab-content overflow-hidden">
-                <p className="text-base  pb-5">{ans}</p>
+                <p className="text-[17px]  pb-5">{ans}</p>
             </div>
         </div>
     )

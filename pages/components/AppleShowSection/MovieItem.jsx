@@ -4,7 +4,7 @@ const MovieItem = ({ bgUrl }) => {
     return (
         <div
             style={{ backgroundImage: `url("${bgUrl}")` }}
-            className="min-w-[210px] h-28 rounded-lg bg-movie1 bg-cover grid place-items-center"
+            className="min-w-[210px] xl:min-w-[378px] h-28 xl:h-[212px] rounded-lg bg-movie1 bg-cover grid place-items-center"
         >
             <div className="opacity-0 hover:opacity-100">
                 <button className="bg-white py-2 px-4 flex gap-4 text-sm rounded-3xl font-semibold">

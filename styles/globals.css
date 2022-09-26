@@ -57,6 +57,6 @@ body {
 
 @layer components {
     .typography-headline {
-        @apply text-[28px] font-semibold leading-[30px] text-center py-3;
+        @apply text-[28px] xl:text-[40px] 2xl:text-[48px] font-semibold leading-[30px] xl:leading-[43px] 2xl:leading-[50px] text-center py-3;
     }
 }

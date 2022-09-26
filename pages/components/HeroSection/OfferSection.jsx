@@ -30,7 +30,7 @@ const content = [
 
 const OfferSection = () => {
     return (
-        <div className="flex flex-col gap-16 px-6 pt-[150px] ">
+        <div className="flex flex-col gap-16 md:gap-8 pt-[150px] md:flex-row lg:w-[692px] xl:w-[980px] 2xl:w-[90%] lg:mx-auto">
             {/* Need to add when I created left section pb-[170px] */}
             {content.map((item) => (
                 <OfferItems key={item.id} {...item} />

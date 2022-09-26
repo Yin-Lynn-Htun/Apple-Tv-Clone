@@ -5,7 +5,7 @@ import { MOVIE_LIST_1, MOVIE_LIST_2 } from '../../../constants/movieData'
 const MovingMovieSection = () => {
     return (
         <div className="py-14  overflow-x-hidden">
-            <div className="translate-x-9">
+            <div className="translate-x-9 xl:translate-x-24">
                 <MovieList movies={MOVIE_LIST_1} />
             </div>
             <MovieList movies={MOVIE_LIST_2} />

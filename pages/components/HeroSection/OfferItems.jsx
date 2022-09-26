@@ -15,10 +15,16 @@ const OfferItems = ({ heading, title, subtitle, buttonText }) => {
             }}
             className="text-white"
         >
-            <h2 className="text-base font-semibold">{heading}</h2>
-            <h3 className="text-[28px] font-bold mt-3">{title}</h3>
-            <p className="text-base mt-1 mb-6 text-gray-text">{subtitle}</p>
-            <a className="text-base font-bold px-6 py-3 rounded-3xl bg-white text-black">
+            <h2 className="text-base font-semibold md:text-lg xl:text-[21px]">
+                {heading}
+            </h2>
+            <h3 className="text-[28px] font-bold mt-3 xl:text-[40px]">
+                {title}
+            </h3>
+            <p className="text-base xl:text-[17px] mt-1 mb-6 text-gray-text min-h-[100px]">
+                {subtitle}
+            </p>
+            <a className="text-base md:text-sm font-bold px-6 py-3 rounded-3xl bg-white text-black">
                 {buttonText}
             </a>
         </div>

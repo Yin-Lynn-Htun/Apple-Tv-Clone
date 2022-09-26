@@ -10,6 +10,7 @@ import FaqSection from '../FaqSection/FaqSection'
 import HeroSection from '../HeroSection/HeroSection'
 import MainNavbar from '../Navbar/MainNavbar'
 import StickyCta from '../Navbar/StickyCta'
+import Wrapper from '../Wrapper'
 
 const Layout = () => {
     return (
@@ -19,12 +20,16 @@ const Layout = () => {
             <CtaButton />
             <HeroSection />
             <AppleShowSection />
-            <AppleTvAppSection />
-            <FaqSection />
-            <AppleOneSection />
-            <AppleMusicSection />
-            <AppleTvSection />
-            <AppleAirPlaySection />
+            <Wrapper>
+                <AppleTvAppSection />
+                <FaqSection />
+            </Wrapper>
+            <div className="lg:w-[692px] lg:mx-auto xl:w-auto xl:mx-[19px] 2xl:w-[97%] 2xl:max-w-[1360px] 2xl:mx-auto">
+                <AppleOneSection />
+                <AppleMusicSection />
+                <AppleTvSection />
+                <AppleAirPlaySection />
+            </div>
             <div className="h-screen w-full"></div>
         </div>
     )

@@ -3,8 +3,8 @@ import AccordionItem from './AccordionItem'
 
 const FaqSection = () => {
     return (
-        <section className="px-6 pb-12">
-            <h1 className="text-2xl text-center font-semibold mb-11">
+        <section className="px-6 md:px-12 pb-12">
+            <h1 className="text-[28px] md:text-[40px] xl:text-[72px] text-center font-semibold mb-11">
                 Questions? Answers.
             </h1>
             <div className="w-full">

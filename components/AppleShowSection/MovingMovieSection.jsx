@@ -1,6 +1,6 @@
 import React from 'react'
 import MovieList from './MovieList'
-import { MOVIE_LIST_1, MOVIE_LIST_2 } from '../../../constants/movieData'
+import { MOVIE_LIST_1, MOVIE_LIST_2 } from '../../constants/movieData'
 
 const MovingMovieSection = () => {
     return (

@@ -61,7 +61,7 @@ const HeroSection = () => {
                         </p>
                     </h2>
                     <div>
-                        <button className="rounded-full bg-white text-black mt-6 px-[31px] py-[18px] text-sm 2xl:text-[17px] font-semibold">
+                        <button className="hidden md:block rounded-full bg-white text-black mt-6 px-[31px] py-[18px] text-sm 2xl:text-[17px] font-semibold">
                             Stream Now
                         </button>
                     </div>

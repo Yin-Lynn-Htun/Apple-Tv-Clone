@@ -11,7 +11,7 @@ const AccordionItem = ({ id, ques, ans }) => {
             />
             <label
                 className="block py-5 cursor-pointer text-lg md:text-xl xl:text-2xl font-semibold"
-                for={id}
+                htmlFor={id}
             >
                 {ques}
             </label>
